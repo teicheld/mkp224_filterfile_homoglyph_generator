@@ -4,13 +4,12 @@ def generate_homoglyphs(word):
     homoglyphs = {
         'a': ['4'],
         'e': ['3'],
-        'i': ['l'],
-        'l': ['i', '7'],
         's': ['5'],
         't': ['7'],
         'z': ['2'],
         'p': ['q'],
-        'q': ['p']
+        'q': ['p'],
+        'o': ['0']
     }
     
     variations = [list(word)]
