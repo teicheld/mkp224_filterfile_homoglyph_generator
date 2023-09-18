@@ -9,7 +9,6 @@ def generate_homoglyphs(word):
         'z': ['2'],
         'p': ['q'],
         'q': ['p'],
-        'o': ['0']
     }
     
     variations = [list(word)]
